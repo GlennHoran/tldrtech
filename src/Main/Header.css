@@ -1,0 +1,15 @@
+.about {
+    color: rgba(0,0,0,0.5);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.siteTitle {
+    color: rgba(0,0,0,0.5);
+    font-weight: bold;
+    font-size: larger;
+}
+
+

@@ -1,0 +1,13 @@
+.jumboHome{
+    background-image: url(img/homebanner.png);
+    background-size: cover;
+    padding: 5em ;
+    min-height: 320px;
+}
+
+.jumboWords{
+    color: white;
+    font-size:5rem;
+    alignment: left;
+
+}
