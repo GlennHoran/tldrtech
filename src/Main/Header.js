@@ -8,11 +8,7 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem } from 'reactstrap';
+    NavLink} from 'reactstrap';
 
 export class Navigation extends React.Component {
     constructor(props) {
@@ -30,7 +26,7 @@ export class Navigation extends React.Component {
     }
     render() {
         return (
-            <div className = "container">
+            <div className = "header">
                 <Navbar color="faded" light expand="md">
 
                     <NavbarBrand >
@@ -42,66 +38,23 @@ export class Navigation extends React.Component {
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-
-                                    <Link to = "/About" className = 'about'>About</Link>
+                                <Link to = "/About" className = 'navitem'>About</Link>
                             </NavItem>
                             <NavItem>
                                 <NavLink href="https://github.com/GlennHoran">Github</NavLink>
                             </NavItem>
-                            <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret ="/News">
-                                    News
-                                </DropdownToggle>
-
-                                <DropdownMenu >
-                                    <DropdownItem>
-                                        Raspberry Pi
-                                    </DropdownItem>
-                                    <DropdownItem >
-                                        Arduino
-                                    </DropdownItem>
-
-                                    <DropdownItem>
-                                        3d Printing
-                                    </DropdownItem>
-                                </DropdownMenu>
-                            </UncontrolledDropdown>
-                            <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret >
-                                    Reviews
-                                </DropdownToggle>
-
-                                <DropdownMenu >
-                                    <DropdownItem >
-                                        Raspberry Pi
-                                    </DropdownItem>
-                                    <DropdownItem >
-                                        Arduino
-                                    </DropdownItem>
-
-                                    <DropdownItem >
-                                        3d Printing
-                                    </DropdownItem>
-                                </DropdownMenu>
-                            </UncontrolledDropdown>
-                            <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret >
-                                    Projects
-                                </DropdownToggle>
-
-                                <DropdownMenu >
-                                    <DropdownItem >
-                                        Raspberry Pi
-                                    </DropdownItem>
-                                    <DropdownItem >
-                                        Arduino
-                                    </DropdownItem>
-
-                                    <DropdownItem >
-                                        3d Printing
-                                    </DropdownItem>
-                                </DropdownMenu>
-                            </UncontrolledDropdown>
+                            <NavItem>
+                                <Link to = "/News" className = 'navitem'>News</Link>
+                            </NavItem>
+                            <NavItem>
+                                <Link to = "/Reviews" className = 'navitem'>Reviews</Link>
+                            </NavItem>
+                            <NavItem>
+                                <Link to = "/Projects" className = 'navitem'>Projects</Link>
+                            </NavItem>
+                            <NavItem>
+                                <Link to = "/Tutorials" className = 'navitem'>Tutorials</Link>
+                            </NavItem>
                         </Nav>
                     </Collapse>
                 </Navbar>

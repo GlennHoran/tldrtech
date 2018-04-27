@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
-import './App.css';
 import {Navigation} from './Main/Header'
 import {Footer} from './Main/Footer';
-
 import {BrowserRouter as Router} from 'react-router-dom'
 import { Main } from "./Main";
 
@@ -21,5 +19,4 @@ class App extends Component {
         );
     }
 }
-
 export default App;

@@ -7,7 +7,8 @@ export class NoobToggle extends React.Component {
     render () {
         return (
         <div>
-            <button></button>
+            <button>
+            </button>
         </div>
         )
 

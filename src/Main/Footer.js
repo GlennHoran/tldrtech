@@ -19,13 +19,13 @@ export const Footer = () => (
                       <h5 className="text-uppercase">Links</h5>
                       <ul className="list-unstyled">
                           <li>
-                              <a href="#!">Facebook</a>
+                              <a href="https://www.facebook.com">Facebook</a>
                           </li>
                           <li>
-                              <a href="#!">Twitter</a>
+                              <a href="https://www.twitter.com">Twitter</a>
                           </li>
                           <li>
-                              <a href="#!">Github</a>
+                              <a href="https://www.github.com">Github</a>
                           </li>
                       </ul>
                   </div>
