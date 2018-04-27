@@ -11,7 +11,7 @@ export const Home = () => (
             <div>
             <Jumbotron className = 'jumboHome'>
                 <div >
-                    <h1 className = 'jumboWords' >TLDR:Tech</h1></div>
+                    <h1 className = 'jumboWords' >TLDR:Tech Heroku</h1></div>
             </Jumbotron>
             </div>
             <Row>
